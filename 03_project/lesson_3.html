@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Css Top Navigation Bar & Css Column</title>
+	<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+h1{
+	text-align: center;
+}
+.css_column{
+			width: 1000px;
+			background-color: DodgerBlue;
+			color: #fff;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px;
+			border: 1px solid #000;
+			column-count: 3;
+			-webkit-column-count: 3;
+			-moz-column-count: 3;
+			column-gap: 100px;
+			-webkit-column-gap: 100px;
+			-moz-column-gap: 100px;
+			column-rule: dotted 2px #000;
+			-webkit-column-rule: dotted 2px #000;
+		}
+		/*first image*/
+		.first_img {
+      width: 400px;
+      height: 200px;
+      border:2px solid #fff;
+      background: url(images/1.png) no-repeat;
+      box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /*Second Image*/
+    .second_img {
+  width: 400px;
+  height: 200px;
+  border:2px solid #fff;
+  background: url(images/1.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .third_img {
+
+  width: 190px;
+  height: 190px;
+  border:2px solid #fff;
+  background: url(images/2.png) no-repeat;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
+  margin-left: auto;
+  margin-right: auto;
+  }  
+    
+.fourth_img {
+  width: 400px;
+  height: 200px;
+  border:2px solid #fff;
+  background: url(images/1.png) no-repeat;
+  -moz-box-shadow: inset 10px 10px 50px #fff;
+  -webkit-box-shadow: inset 10px 10px 50px #fff;
+  box-shadow: inset 10px 10px 50px #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fifth_img {
+      width: 400px;
+      height: 200px;
+      border:2px solid #fff;
+      background: url(images/1.png) no-repeat;
+      color:white;
+      font-size:50px;
+      -moz-box-shadow: 10px 10px 50px #ccc;
+      -webkit-box-shadow: 10px 10px 50px #ccc;
+      box-shadow: 10px 10px 50px #ccc;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+</style>
+</head>
+<body>
+	<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h1>Top Navigation Example & Css Columns</h1>
+  <p class="css_column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est porro natus maiores, vero magnam perspiciatis quam aspernatur, possimus accusantium officia quasi dignissimos, quae culpa ad voluptatibus asperiores! Inventore, quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo saepe iusto et iste. Explicabo, consequatur. Blanditiis quaerat, temporibus laborum officiis illo accusamus sed aliquam totam fugit tempore. Sunt beatae, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fuga, velit. Autem distinctio tempore optio cumque possimus sit doloribus dicta. Odit, perspiciatis corporis quibusdam cumque aliquid totam quo et earum.</p>
+</div>
+<div class="first_img"></div><hr>
+
+	<div class="row">
+		<div class="second_img"></div>
+	</div><hr>
+	
+<div class="third_img"></div><hr>
+<div class="fourth_img"></div><hr>
+<div class="fifth_img">Wild Life.......</div>
+</body>
+</html>
