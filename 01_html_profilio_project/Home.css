@@ -1,0 +1,555 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container1{
+	display: block;
+	height: 100px;
+	position: relative;
+	color: white;
+	background-color: black;
+}
+.logo{
+	width: 200px;
+	height: 50px;
+	margin: 25px;
+}
+ul{
+	position: absolute;
+	top: 15px;
+	left: 60px;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px 20%;
+
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:25px 50px;
+	font-weight: bold;
+}
+li a:hover{
+	color: cornflowerblue;
+	margin-top: 5px;
+}
+.num{
+	font-size: 16pt;
+	position: absolute;
+	top: 10px;
+	right: 175px;
+}
+.box{
+	padding: 7.5px;
+	border: 0;
+	width: 50%;
+}
+.searchbox i{
+	background-color: white;
+	position: relative;
+	top: 1.6px;
+	right: 4px;
+	color: grey;
+	padding: 7px;
+	border-left: 1px solid black;
+	cursor: pointer;
+}
+.searchbox i:hover{
+	background-color: cornflowerblue;
+	color: white;
+}
+.searchbox{
+	position: absolute;
+	top: 50px;
+	right: 110px;
+}
+.drop{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	background-color: black;
+	color: white;
+	padding: 5px;
+	border-radius: 20%;
+}
+.drop option{
+	padding: 5px;
+	border-bottom: 1px solid white;
+}
+.container2{
+	width: 100%;
+	height: 500px;
+	background-image: url('bg.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.heading1{
+	text-align: center;
+	font-size: 20pt;
+	padding: 200px 0 50px 0;
+	word-spacing: 1px;
+
+}
+.searchbox2 span{
+	position: relative;
+	top: 50%;
+	left: 43%;
+}
+.box2{
+	padding: 8px;
+}
+.searchbox2 i{
+	background-color: cyan;
+	position: relative;
+	top: 1.6px;
+	right: 4px;
+	color: whitesmoke;
+	padding: 9.1px;
+	border-left: 1px solid black;
+	cursor: pointer;
+}
+.searchbox2 i:hover{
+	background-color: cornflowerblue;
+	color: black;
+}
+
+.heading2{
+	padding: 40px;
+	text-align: center;
+}
+.lorem{
+	color: grey;
+	position: relative;
+	left: 230px;
+	text-align: center;
+	width: 900px;
+	padding: 10px 0 50px 0;
+}
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 60px;
+}
+.grid div{
+	text-align: center;
+	height: 250px;
+	width: 300px;
+}
+.grid .img{
+	border-right: 2px solid cyan;
+}
+.grid .bot{
+	border-bottom: 2px solid cyan;
+}
+.grid i{
+	font-size: 72pt;
+	padding: 40px 0;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+
+}
+.grid p{
+	font-size: 20pt;
+}
+
+.icon1{
+	color: cyan;
+}
+.icon2{
+	color: cornflowerblue;
+}
+.icon2:hover{
+	color: darkgoldenrod;
+}
+.icon1:hover{
+	color: darkgoldenrod;
+}
+.icon-y:hover{
+	color: crimson;
+}
+.container4{
+	padding: 50px 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.c img{
+	height: 450px;
+	width: 330px;
+}
+.sp{
+	width: 200px;
+	display: flex;
+
+}
+.c{
+	position: relative;
+	margin: 50px;
+}
+.overlay{
+	position: absolute;
+	top: 150px;
+	left: 0;
+	padding: 20px;
+}
+.overlay p{
+	width:260px;
+	height: auto;
+	text-align: justify;
+}
+.overlay *{
+	padding: 5px 0;
+	margin: 10px 0;
+	color: white;
+}
+.overlay .b1{
+	padding: 16px 85px;
+	width: 120px;
+	text-decoration: none;
+	text-align: center;
+	background-color: white;
+	color: black;
+	position: absolute;
+	top: 210px;
+	transition: 1s ease-out;
+}
+.b1:hover{
+	background-color: cornflowerblue;
+	color: white;
+}
+.container5{
+	background-image: url('bg.png');
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
+.b2{
+	padding: 10px 50px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	background-color: cyan;
+	color: white;
+	left: 43.5%;
+	margin: 50px 0;
+	font-weight: bold;
+	border: 0;
+	transition: 1s ease-in-out;
+}
+.b2:hover{
+	background-color: cornflowerblue;
+	border-bottom: 2px solid white;
+}
+.final .grid{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px;
+}
+.final .grid div{
+	height: 250px;
+	width: 380px;
+	text-align: center;
+}
+.final .grid .img{
+	border-right: 1px solid cyan;
+}
+.final .grid .bot{
+	border-bottom: 1px solid cyan;
+}
+
+.final img{
+	padding: 60px;
+
+}
+.final-2{
+	background-color: black;
+	color: whitesmoke;
+	display: flex;
+
+}
+.logof{
+	height: 80px;
+	width: 200px;
+}
+.con1{
+	padding: 50px 10px 50px 0;
+	margin-left: 160px;
+	width: 24%;
+
+}
+.con2 a{
+	text-decoration: none;
+	display: block;
+	padding: 15px 0px;
+	font-size: 10pt;
+	border-bottom: 0px;
+	color: whitesmoke;
+	width: 100px;
+	transition: 1s;
+}
+.con2{
+	display: inline-block;
+	width: 200px;
+	padding: 70px 20px 50px 0;
+
+}
+
+.con1 i{
+	margin: 0 5px 0 0;
+	font-size: 10pt;
+}
+.testimg i{
+	font-size: 16pt;
+	height: 25px;
+	width: 25px;
+	color: cornflowerblue;
+	margin-top: 10px;
+}
+.con1 p{
+	padding: 10px 0;
+	font-size: 9pt;
+}
+.f-con2{
+	margin-right: 150px;
+}
+.con2 a:hover{
+	border-bottom: 2px solid cornflowerblue;
+	color: cornflowerblue;
+}
+.foot{
+	background-color: black;
+	color: whitesmoke;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-around;
+}
+.foot .testimages2{
+	margin-right: 250px;
+	padding: 25px 0;
+}
+.foot p{
+	margin-left: 100px;
+	padding: 25px 0;
+
+}
+.foot i{
+	font-size: 20pt;
+	margin: 0 5px;
+	color: grey;
+}
+i{
+	cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+	.container{
+		background-color: black;
+		height: auto;
+	}
+
+	.nav{
+		width: 100%;
+		height: auto;
+		background-color: black;
+		position: absolute;
+		top: 100px;
+		left: 0;
+	}
+	.nav li{
+		position: relative;
+		left: 0px;
+		display: inline-block;
+		width: 60%;
+		text-align: center;
+		clear: both;
+		padding: 0;
+	}
+	li a:hover{
+		margin: 0;
+	}
+	.drop{
+		position: absolute;
+		right: 40px;
+		top: 30px;
+	}
+	.num{
+		font-size: 16pt;
+		position: absolute;
+		top: 430px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		display: block;
+		border: 1px solid black;
+		background-color: black;
+	}
+	.box{
+		padding: 5px;
+		display: block;
+		text-align: center;
+		margin: 10px 0 10px 10px;
+	}
+	.searchbox{
+		display: block;
+		width: 100%;
+		top: 450px;
+		left: 0px;
+		padding-left: 70px;
+		padding-top: 10px;
+		background-color: black;
+		margin-bottom: 10px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.s-icon{
+		font-size: 10pt;
+		height: 50%;
+		margin: 7px 0 0 4px;
+	}
+	.logo{
+	width: 180px;
+	height: 50px;
+	margin: 20px;
+
+	}
+	.container2{
+		height: 600px;
+	}
+	.container2 .heading1{
+		position: relative;
+		top: 240px;
+		font-size: 16pt;
+	}
+	.searchbox2{
+		position: relative;
+		top: 210px;
+		right: 75px;
+		font-size: 16pt;
+	}
+	.searchbox2 i{
+		top: 0px;
+		font-size: 8pt;
+
+	}
+	.box2{
+		padding: 5px;
+	}
+	.container3 .lorem{
+		font-size: 8pt;
+		left: 0px;
+		width: 100%;
+	}
+	.container3 .grid{
+		width: 100%;
+		margin-left: 18px;
+	}
+	.container3 .grid *{
+		width: 80px;
+		height: 100px;
+	}
+	.grid i{
+		font-size: 30pt;
+		padding: 20px 0 0 0;
+		height: auto;
+	}
+
+	.grid .img{
+		border-right: 1px solid cornflowerblue;
+	}
+	.grid .bot{
+		border-bottom: 1px solid cornflowerblue;
+	}
+	.grid p{
+		font-size: 8pt;
+		position: relative;
+		bottom: 50px;
+
+	}
+	.container4{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.container4 .c{
+		margin-left: 0px;
+	}
+	.container4 .overlay{
+		padding-left: 15px;
+	}
+	.container5{
+		background-position: left;
+	}
+	.container5 .b2{
+		left: 100px;
+	}
+	.final .f{
+		width: 100%;
+		font-size: 13pt;
+		left: 0;
+	}
+	.final .grid{
+		width: 100%;
+		margin-left: 10px;
+	}
+	.final .grid *{
+		width: 110px;
+		height: 100px;
+	}
+	.final .grid .img{
+		border-bottom: 1px solid cyan;
+	}
+	
+	.final-2{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.con1{
+		margin-left: 10px;
+		font-size: 10pt;
+		width: 100%;
+		text-align: center;
+	}
+	.logof{
+		height: 50px;
+		width: 150px;
+}
+	.con2{
+		width: 40%;
+		padding: 30px 0 30px 30px;
+	}
+	.f-con2{
+		margin: 0;
+	}
+	.foot{
+	background-color: black;
+	color: whitesmoke;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	text-align: center;
+
+	}
+
+	.foot p{
+		margin: 0;
+		padding: 15px 0;
+		width: 100%;
+
+	}
+	.foot .testimages2{
+		padding: 10px 0;
+		margin: 0 0 150px 0;
+		width: 100%;
+		height: 80px;
+	}
+	.foot .testimg2 img{
+		margin: 5px;
+		height: 25px;
+		width: 25px;
+	}
+}
