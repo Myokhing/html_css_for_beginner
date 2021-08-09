@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript Object</title>
+</head>
+<body>
+	<h1>Javascript Object</h1>
+	<p id="demo"></p>
+<p id="show"></p>
+	<script>
+		//const car = "ပါရာရိုကား";
+		
+const address =  {
+    id: 1,
+    name: "အောင်အောင်",
+    job: "အိုင်တီ ပညာရှင်",
+    img: "img/11.jpg",
+    text:
+      " နေရပ်လိပ် စာ - မြန်မာ - မန်းလေး",
+  }
+  document.getElementById("show").innerHTML = address.name;
+		const cars = {type: "ပါရာရိုကား", model: "2000", color: "အဖြူရောင်"}
+		console.log(cars);
+          document.getElementById("demo").innerHTML = "ကားအမျိုးအစားသည်" + cars.type + "ကားမော်ဒယ်သည်" + cars.model + "ကားအရောင်သည်" + cars.color ;
+
+          const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+          document.write(person.firstName, person.lastName, person.age, person.eyeColor)
+	</script>
+</body>
+</html>
